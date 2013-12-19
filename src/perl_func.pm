@@ -1,6 +1,6 @@
-# Function to be called by other scripts
+# VTSTSCRIPTS version V2.04 (07/07/11)
 
-package Perl_func;
+package Vasp;
 use strict;
 use Math::Trig;
 
