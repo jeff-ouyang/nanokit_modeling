@@ -1,6 +1,6 @@
 # VTSTSCRIPTS version V2.04 (07/07/11)
 
-package Vasp;
+package Perl_function;
 use strict;
 use Math::Trig;
 
@@ -58,7 +58,7 @@ sub read_poscar {
     my $index;
     my $coords_kar;
 
-    open (IN,$filename) or die "In vasp.pm::read_poscar, cannot open $filename\n";
+    open (IN,$filename) or die "The file $filename cannot be opened, please check for the format\n";
     @poscar = <IN>;
     close (IN);
 
