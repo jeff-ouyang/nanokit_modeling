@@ -5,7 +5,7 @@
 
 use FindBin qw($Bin);
 use lib "$Bin";
-use Vasp;
+use Perl_func;
 
 # Get the input parameters
 @ARGV >= 6 || die "The input parameters are larger than the maximum\n";
