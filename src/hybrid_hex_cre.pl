@@ -43,6 +43,7 @@ else
 {die "Your input format is not available in the current version"};
 
 $col = $col1 + $cole2;
+$filetype = "vasp5";
 
 for($i = 0; $i < 3; $i++){
   for($j = 0; $j < 3; $j++){
@@ -92,8 +93,9 @@ if($Itype == 'Z')
 
 # output the POSCAR
 
-write_poscar($t,$basis1,$lattice1,$natoms1,$totatoms1,
-                     $selectiveflag,$selective,$header,"$dir/POSCAR",$filetype1);
+
+write_poscar($t,$basis,$lattice,$natoms,$totatoms,
+                     $selectiveflag,$selective,$header,"$dir/POSCAR_PS",$filetype);
 
   
   
