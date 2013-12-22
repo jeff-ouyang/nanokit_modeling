@@ -1,4 +1,4 @@
-# VTSTSCRIPTS version V2.04 (07/07/11)
+# Perl function for nanokit modelling (12/22/13)
 
 package Perl_function;
 use strict;
