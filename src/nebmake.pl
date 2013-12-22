@@ -5,7 +5,7 @@
 
 use FindBin qw($Bin);
 use lib "$Bin";
-use Vasp;
+use Perl_func;
 
 # Get the input parameters
 @ARGV >= 3 || die "PLEASE INPUT THE TWO POSCARS AND THE NUMBER OF IMAGES!\n";
